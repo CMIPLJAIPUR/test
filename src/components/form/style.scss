@@ -1,0 +1,25 @@
+.zf-Phone .react-tel-input{
+  .form-control {
+    width: 100%;
+    height: 48px;
+    &.error {
+      border-color: red;
+    }
+  }
+  .special-label {
+    display: none;
+  }
+}
+.z-select {
+  border: 1px solid #E4E4EE;
+  border-radius: 6px;
+  width: 100%;
+  height: 48px;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+  option {
+    height: 48px;
+  }
+}

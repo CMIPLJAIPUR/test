@@ -1,0 +1,69 @@
+.main-create-list {
+    footer {
+        position: relative;
+        margin: 50px;
+        padding: 30px;
+        border-top: 1px solid #E4E4EE;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .mark {
+        position: absolute;
+        right: 100px;
+        top: 20px;
+       } 
+    }
+    .sizePicker {
+        color: #B2B2C2;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        span {
+            cursor: pointer;
+            display: flex;
+            justify-content: space-around;
+            background: #F4F5F9;
+            border: 1px solid #E4E4EE;
+            border-radius: 6px;
+            text-align: center;
+            padding: 5px 8px;
+            min-width: 50px;
+            div {
+                width: 24px;
+                height: 24px;
+                margin-right: 10px;
+                border-radius: 30px;
+            }
+        }
+        .active {
+          color: black;
+          border-color: black;
+        }
+    }
+    .photo {
+        display: flex;
+        gap: 10px;
+        span {
+            position: relative;
+            i {
+                position: absolute;
+                left: calc(50% - 5px);
+                top: 30px;
+            }
+        }
+    }
+    .select-variation {
+        margin: 22px 25px;
+        nav {
+            font-size: 28px;
+            margin-top: 50px;
+            font-weight: 600;
+        }
+    }
+}
+@media (max-width: 1250px) {
+    .main-create-list footer .mark {
+       position: static;
+       display: block;
+    }
+}

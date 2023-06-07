@@ -1,0 +1,210 @@
+
+.main-search-list {
+    margin: 22px 25px;
+    margin-bottom: 10px;
+}
+button#search-button span {
+    padding: 16px;
+}
+button#search-button {
+    padding: 0px 24px !important;
+}
+h2.search-heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 100px 0px 16px;
+}
+.input-group-search {
+    margin-top: 16px;
+    gap: 14px;
+    display: flex;
+    input {
+        max-width: 750px;
+        height: 48px;
+    }
+}
+.form-outline {
+    flex: 1;
+}
+button#search-button {
+    background: #0072BC;
+    color: white;
+}
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h3.show-txt {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.main-logo {
+    display: flex;
+    align-items: center;
+}
+.main-logo h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.main-create-list {
+    .main-logo {
+        height: 60px;
+        position: relative;
+        display: block;
+        .logo {
+            display: block;
+            justify-content: center;
+            align-items: center;
+            padding: 14px 0px;
+            margin: 0px 25px;
+        }
+        span {
+            position: absolute;
+            top: 5px;
+            left: 180px;
+        }
+    }
+    .searchlist {
+        background-color: white;
+        position: absolute;
+        margin-top: 10px;
+        display: none;
+        flex-direction: column;
+        border: 1px solid #E4E4EE;
+        box-shadow: 0px 16px 50px rgba(37, 37, 46, 0.03);
+        border-radius: 6px;
+        width: calc(100% - 116px);
+        max-width: 750px;
+        &.focused {
+            display: flex;
+        }
+        span {
+            padding: 8px;
+            cursor: pointer;
+            &:hover {
+                background-color: #0072BC;
+                color: white;
+            }
+        }
+
+    }
+    u {
+        cursor: pointer;
+        display: block;
+        color: #0072BC;
+        font-size: 16px;
+        margin: 25px 0px;
+    }
+    section {
+        display: flex;
+        overflow: auto;
+        padding: 24px 24px 16px;
+        border: 1px solid #E4E4EE;
+        border-radius: 6px;
+        gap: 30px;
+        & > div {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #E4E4EE;
+            border-radius: 6px;
+            height: 330px;
+            overflow-y: auto;
+            flex-grow: 1;
+            min-width: 300px;
+        }
+        span {
+            padding: 8px;
+            cursor: pointer;
+            &:hover, &.active {
+                background-color: #0072BC;
+                color: white;
+            }
+        
+        }
+    }
+    h3 {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 36px;
+        padding: 32px 0px;
+        margin: 32px 0px;
+        border: 1px solid #E4E4EE;
+        border-left: none;
+        border-right: none;
+    }
+    .label {
+        width: 200px;
+        line-height: 48px;
+    }
+    .label2 {
+        width: 110px;
+        line-height: 48px;
+    }
+    label {
+        background-color: white;
+    }
+    .ck-editor {
+        flex-grow: 1;
+        margin-top: 10px;
+        .ck-content {
+            height: 150px;
+        }
+    }
+    button.save {
+        padding: 12px 30px;
+        background-color: #0072BC;
+        border-radius: 6px;
+        color: white;
+    }
+    button.later {
+        padding: 12px 30px;
+        border: 1px solid #0072BC;
+        background-color: white;
+        border-radius: 6px;
+        color: #0072BC;
+    }
+    button.cancel {
+        padding: 12px 30px;
+        border: 1px solid #B2B2C2;
+        border-radius: 6px;
+        color: #B2B2C2;
+        background-color: white
+    }
+    .z-input-group {
+        display: flex;
+        span {
+            width: 70px;
+            padding: 12px 12px;
+            background-color: #F4F5F9;
+            color: #B2B2C2;
+            border-radius: 6px 0px 0px;
+        }
+    }
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #E4E4EE;
+    border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+@media (min-width: 576px) {
+    .format-width {
+        width: 350px;
+    }
+}

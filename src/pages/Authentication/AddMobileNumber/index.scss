@@ -1,0 +1,95 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-mobile-heading {
+  width: 100%;
+  border-bottom: 1px solid #e4e4ee;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  padding: 20px 10px;
+}
+
+.pad {
+  padding: 20px 50px;
+}
+.add-mobile-caption {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #81818f;
+  padding: 36px 0;
+}
+.wid-30 {
+  width: 720px;
+}
+
+.add-mobile-footer-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #e4e4ee;
+  padding: 10px;
+}
+
+.not-now-option {
+  text-align: center;
+
+  a {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+.add-mobile-btn-wrapper {
+    text-align: center;
+
+    .add-mobile-btn {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 900px) {
+  .wid-30 {
+    width: 70%;
+  }
+  .add-mobile-btn-wrapper {
+    width: 100%;
+
+    .add-mobile-btn {
+        width: 100%;
+    }
+  }
+}
+.country-code-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.country-code {
+  max-width: 352px !important;
+  height: 48px;
+}
+.input-container {
+  width: 352px !important;
+}
+
+@media (max-width: 430px) {
+  .wid-30 {
+    width: 100%;
+    padding: 20px;
+  }
+}
